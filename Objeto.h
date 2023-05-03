@@ -79,4 +79,5 @@ public:
     pa{_pa}, pb{_pb}, ra{_ra}, Objeto(_color){}
     bool intersectar(Rayo rayo, float &t, vec3 &normal);
 };
+
 #endif //CG2023_OBJETO_H
